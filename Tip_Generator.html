@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tip Generator</title>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<style type="text/css">
+		#container{
+			background-color: pink;
+			height: 650px;
+			width: 370px;
+			position: relative;
+			top:20px;
+			left:600px;
+		}
+
+		body{
+			background-color: #A9A9A9
+		}
+
+
+
+	</style>
+</head>
+<body>
+	
+	<div id="container" class="w3-panel w3-card">
+
+		<H2><center>Calculate Your Tip</center></H2>		
+		<hr>
+		<h4><p><bold>Please Enter your Total bill Amount</bold></p></h4>
+		<bold>$</bold><input type="total_amount" name="tamount" placeholder="Enter your amount">
+
+		<p><bold>How Did You Like The Service?</bold></p>
+		<select>
+		    <option disabled selected value="0">-- Choose an Option --</option>
+			<option><bold>50% - AMAZING</bold></option>
+			<option><bold>25% - VERY GOOD</bold></option>
+			<option><bold>20% - GOOD</bold></option>
+			<option><bold>15% - SATISFACTORY</bold></option>
+			<option><bold>10% - OK</bold></option>
+			<option><bold>5% - BAD</bold></option>
+		</select>
+
+		<p><bold>Enter The Number Of People Sharing The Bill<bold></p>
+			<input type="text" id="num_people" placeholder="Number Of People">
+			
+			<p><button id="calculate">CALCULATE!</button></p>
+
+
+
+
+		
+	</div>
+</body>
+</html>
